@@ -38,7 +38,7 @@
                 <button class="btn btn-sm btn-danger">Retirer</button>
             </td>
         </tr>
-        <!-- Autres candidatures -->
+
         </tbody>
     </table>
 </div>

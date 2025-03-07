@@ -15,6 +15,7 @@
 </head>
 <body>
 <div class="container mt-4">
+    <form id = "form1" class="form1" action="offre?action=create" method="post">
     <h1>Offres d'Emploi</h1>
 
     <div class="row mb-3">
@@ -44,10 +45,11 @@
                     <a href="#" class="btn btn-success">Postuler</a>
                 </div>
             </div>
-            <!-- Autres offres similaires -->
+
         </div>
     </div>
+    </form>
 </div>
 </body>
 </html>
-```
+

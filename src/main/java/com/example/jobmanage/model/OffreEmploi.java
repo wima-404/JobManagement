@@ -1,18 +1,17 @@
 package com.example.jobmanage.model;
 
 public class OffreEmploi {
+    String id;
     String titre;
-    String Description;
-    String DatePublication;
+    String description;
+    String dat_Publication;
 
-    public OffreEmploi(String titre, String description, String datePublication) {
-        this.titre = titre;
-        Description = description;
-        DatePublication = datePublication;
+    public String getId() {
+        return id;
     }
 
-    public OffreEmploi() {
-
+    public void setId(String id) {
+        this.id = id;
     }
 
     public String getTitre() {
@@ -24,18 +23,27 @@ public class OffreEmploi {
     }
 
     public String getDescription() {
-        return Description;
+        return description;
     }
 
     public void setDescription(String description) {
-        Description = description;
+        this.description = description;
     }
 
-    public String getDatePublication() {
-        return DatePublication;
+    public String getDat_Publication() {
+        return dat_Publication;
     }
 
-    public void setDatePublication(String datePublication) {
-        DatePublication = datePublication;
+    public void setDat_Publication(String dat_Publication) {
+        this.dat_Publication = dat_Publication;
+    }
+
+    public OffreEmploi(String id, String titre, String description, String dat_Publication) {
+        this.id = id;
+        this.titre = titre;
+        this.description = description;
+        this.dat_Publication = dat_Publication;
+
+
     }
 }
